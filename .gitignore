@@ -4,11 +4,15 @@
 **/.env
 
 
-# Eclipse
+# Eclipse/IDE files
 .metadata/
-.project
-.classpath
 .settings/
+.classpath
+.project
+
+# Build output
+target/
+
 
 # IntelliJ
 .idea/
@@ -22,3 +26,7 @@ target/
 
 # Logs
 *.log
+
+/.metadata/
+**/application.yaml
+**/.env
